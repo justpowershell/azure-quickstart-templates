@@ -32,7 +32,7 @@
       "metadata": {
         "description": "The DNS prefix for the public IP address used by the Load Balancer"
       }
-    },
+    }
   },
   "variables": {
     "adLBFE": "LBFE",
