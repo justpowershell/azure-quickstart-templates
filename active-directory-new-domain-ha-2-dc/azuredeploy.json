@@ -48,7 +48,7 @@
 	"adBDCVMName" : "[concat(parameters('azPrefix'),'BDC')]",
 	"adAvailabilitySetName" : "[concat(parameters('azPrefix'),'AvailabilitySet')]",
 	"publicIPAddressName" : "[concat(parameters('azPrefix'),'publicIP')]",
-	"assetLocation" : "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/active-directory-new-domain-ha-2-dc/"
+	"assetLocation" : "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/active-directory-new-domain-ha-2-dc/",
     "VnetID": "[resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]",
     "adSubnetRef": "[concat(variables('VnetID'),'/subnets/',variables('adSubnetName'))]",
     "adPDCNicId": "[resourceId('Microsoft.Network/networkInterfaces',variables('adPDCNicName'))]",
