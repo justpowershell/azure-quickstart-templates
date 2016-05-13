@@ -96,7 +96,7 @@
     },
     {
       "type": "Microsoft.Compute/availabilitySets",
-      "name": "variables('adAvailabilitySetName')]",
+      "name": "[variables('adAvailabilitySetName')]",
       "apiVersion": "2015-05-01-preview",
       "location": "East US"
     },
